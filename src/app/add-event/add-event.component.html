@@ -1,0 +1,9 @@
+<div class="add-event">
+  <form class="form" [formGroup]="addEventForm">
+      
+    <input formControlName="name" type="text" placeholder="event name">
+    <input formControlName="location" type="text" placeholder="event location">
+
+    <button (click)="onSave()">Save event</button>
+  </form>
+</div>
